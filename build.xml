@@ -1,14 +1,28 @@
-<?xml version="1.0">
 <project name="vtg" default="all" basedir=".">
+  <property file="build.properties"/>
 
   <target name="all" depends="clean, init, vtg"/>
   <target name="clean">
+    <exec executable="/etc/init.d/httpd">
+      <arg line="stop"/>
+    </exec>
+    <exec executable="chkconfig">
+      <arg line="--level 2345 httpd off"/>
+    </exec>
+
   </target>
 
   <target name="init">
+    <exec executable="/etc/init.d/httpd">
+      <arg line="start"/>
+    </exec>
+    <exec executable="chkconfig">
+      <arg line="--level 2345 httpd on"/>
+    </exec>
   </target>
 
   <target name="vtg">
+    <copy file="${src}/index.php" todir="/var/www/html"/>
   </target>
 
 </project>
