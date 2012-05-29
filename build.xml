@@ -1,0 +1,14 @@
+<?xml version="1.0">
+<project name="vtg" default="all" basedir=".">
+
+  <target name="all" depends="clean, init, vtg"/>
+  <target name="clean">
+  </target>
+
+  <target name="init">
+  </target>
+
+  <target name="vtg">
+  </target>
+
+</project>
