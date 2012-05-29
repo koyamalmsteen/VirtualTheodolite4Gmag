@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <ScreenOverlay>
+    <name>Telescope</name>
+    <Icon>
+<!--
+      <href>http://192.168.0.5/vtg/images/ScreenOverlay2.png</href>
+-->
+      <href>http://10.226.89.152/vtg/images/ScreenOverlay2.png</href>
+    </Icon>
+    <overlayXY x="0" y="1" xunits="pixels" yunits="pixels"/>
+    <screenXY x="0" y="1" xunits="pixels" yunits="pixels"/>
+    <rotationXY x="0" y="0" xunits="pixels" yunits="pixels"/>
+    <size x="0" y="0" xunits="pixels" yunits="pixels"/>
+  </ScreenOverlay>
+</kml>

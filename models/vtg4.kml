@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!--
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+-->
+<kml>
+  <Folder>
+    <name>test</name>
+    <description>Created with
+      <a href="http://sketchup.google.com"> Google SketchUp</a>
+    </description>
+    <visibility>1</visibility>
+    <LookAt>
+      <heading>326.3078036992</heading>
+      <tilt>79.00139023412</tilt>
+      <latitude>35.012980</latitude>
+      <longitude>135.751257</longitude>
+<!--
+      <latitude>34.6147388</latitude>
+      <longitude>135.7341722</longitude>
+-->
+     <range>15.73022278919</range>
+      <altitude>1.5</altitude>
+    </LookAt>
+    <Folder>
+      <name>Tour</name>
+      <Placemark>
+        <name>Scene 1</name>
+        <visibility>1</visibility>
+        <LookAt>
+          <heading>326.3078036992</heading>
+          <tilt>79.00139023412</tilt>
+          <latitude>35.66703610655</latitude>
+          <longitude>139.7499667657</longitude>
+<!--
+      <latitude>34.6147388</latitude>
+      <longitude>135.7341722</longitude>
+-->
+          <range>15.73022278919</range>
+          <altitude>4.032528345573</altitude>
+        </LookAt>
+      </Placemark>
+    </Folder>
+    <Placemark>
+      <name>Model</name>
+      <description></description>
+      <Style id="default"/>
+      <Model>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <Location>
+          <latitude>35.011980</latitude>
+          <longitude>135.751257</longitude>
+<!--
+      <latitude>34.6147388</latitude>
+      <longitude>135.7341722</longitude>
+-->
+          <altitude>0</altitude>
+        </Location>
+        <Orientation>
+          <heading>-0</heading>
+          <tilt>0</tilt>
+          <roll>0</roll>
+        </Orientation>
+        <Scale>
+          <x>1</x>
+          <y>1</y>
+          <z>1</z>
+        </Scale>
+        <Link>
+          <href>http://192.168.0.5/vtg/images/man_vtg_tripod.dae</href>
+<!--
+          <href>http://10.226.89.152/vtg/images/man_vtg_tripod.dae</href>
+-->
+        </Link>
+      </Model>
+    </Placemark>
+  </Folder>
+
+</kml>
